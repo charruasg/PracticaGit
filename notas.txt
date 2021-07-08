@@ -1,0 +1,193 @@
+Video2 (Comandos)
+
+CONFIGURACIONES BASICAS
+
+-presionar q para salir de la otra vista
+
+- configurar en git nuestro nombre
+
+git config --global user.name "Charruasg"
+
+- ver la configuracion del nombre
+
+git config --global user.name
+
+- para cambiar el nombre se usa el mismo Comandos
+
+git config --global user.name "Charrua"
+
+
+- configurar correo electronico
+
+git config --global user.mail "charruasg@gmail.com"
+
+- ver configuracion de correo
+
+git config --global user.mail
+
+- configuracion de colores para mostrar los resultados
+
+git config --global color.ui true
+
+- ver todas las CONFIGURACIONES
+
+git config --global --list
+
+
+
+Video 3 (Comandos)
+
+
+- comando para decirle a git que comienze a monitorear
+
+git init
+
+
+- para ver el estado de nuestro proyecto
+
+git status
+
+- cuando creemos que tenemos listo un archivo lo agregamos con el siguiente comando
+
+git add index.html
+
+- para agregar todos los archivos que tenemos en el workspace
+
+git add -A
+
+- para agregar o guardar commits con mensaje
+
+git commit -m "Iniciamos"
+
+- cuando hacemos un cambio en uno de los archivos lo agregamos
+
+git add index.html 
+
+- cuando hacemos un cambio ejemplo en el index.html lo indicamos con otro commit y un mensaje
+
+git commit -m "Agregamos un div container a la pagina"
+
+- lista de todos los commits
+
+git log
+
+- para viajar a otro comid usamos
+
+git checkout 6aebef6b60d74e9dcb7f8ad903fbcb2ed0900a57
+
+-con master le decimos mueveme al ultimo commit que tengo
+
+git checkout master
+
+-tambien podemos usar git reset viajamos pero la diferencia es que mata los commits
+
+git reset
+
+-hay tres tipos
+
+-no toca el Working Area" (no se mete con el codigo)
+git reset --soft
+
+-no borre el "Stagin Area", ni "Working Area"
+git reset --mixed
+
+
+-este git reset borra absolutamente lo que hay en el commit
+git reset --hard
+
+-ayuda de git
+git help
+git help status (ayuda individual de comandos)
+
+-HEAD: es el commit donde nos encontramos en el momento, si hacemos un comando:
+git status
+
+commit e4b21d0aa580174b8f8772d7423353c05c07b5b8(este es nuestro Head)
+Author: Charruasg <myselffp@gmail.com>
+Date:   Wed Jul 7 00:40:30 2021 -0300
+
+    Agregamos height al style.css columna
+
+commit 5c30d27d83b0dfc5206857535fd0d4cf6fc794cd
+Author: Charruasg <myselffp@gmail.com>
+Date:   Wed Jul 7 00:28:55 2021 -0300
+
+    Agregamos un div columna
+
+commit 2088a0a2c06054c35fa3146422519ef295cfc564
+Author: Charruasg <myselffp@gmail.com>
+Date:   Mon Jul 5 17:05:30 2021 -0300
+
+    Agregamos un div container y un parrafo a nuestra pagina
+
+commit 6aebef6b60d74e9dcb7f8ad903fbcb2ed0900a57
+Author: Charruasg <myselffp@gmail.com>
+Date:   Mon Jul 5 16:50:01 2021 -0300
+
+    Iniciamos
+
+
+----------------------------------------------------------------------
+    
+- Ramas: Es una linea de tiempo en nuestro proyecto, que nos sirven para
+    arreglar errores, experimentar, hacer grandes cambios, etc.
+
+- Rama Master: La rama master es en donde comenzamos a trabajar, es la
+    rama principal y estable de nuestro proyecto.
+
+- para mostrar las ramas 
+    git branch
+    * master
+- para crear una rama git branch "nombre" 
+    git branch test
+    
+- vemos otra vez las ramas
+    git branch 
+    * master
+    test
+
+- para movernos entre ramas
+
+  git checkout test
+  Switched to branch 'test'
+
+- para borrar las ramas
+
+git branch -D
+
+- Fusionar ramas: es la creación de un nuevo commit juntando una rama con otra.
+
+1- situarse en la rama que va a absorver, lo hacemos en la master:
+git checkout master
+
+2- para fucionar usamos el comando merge y la rama que va a ser absorvida
+git merge test
+Updating e4b21d0..4e0a177
+Fast-forward
+ css/style.css | 1 +
+ index.html    | 2 +-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+
+ - cuando fusionamos nos pueden salir dos tipos de mensajes
+
+ 1-Fast-Forward: simple y automático
+Solo va a hacer la fusion, esto pasa normalmente cuando se trabaja con archivos diferentes o líneas
+de código distintas.
+ 2-Manual Merge: largo y manual
+Antes de hacer la fusión tiene que pasar por nosotros, normalmente ocurre cuando se trabaja en
+los mismos archivos o líneas de códigos.
+
+
+- movernos a una rama y a su vez crearla con -b
+git checkout -b 
+
+
+
+
+
+
+    
+
+
+
