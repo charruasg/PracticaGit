@@ -4,6 +4,7 @@ h1{ text-align: center;}
     background-color: lightblue;
     margin-bottom: 15px;
     /*height: 180px;*/ 
+    text-align: center;
 }
 .columna{ 
     background-color: lightgreen;
