@@ -1,0 +1,65 @@
+Video github
+
+$ git clone
+
+GitHub Remoto
+
+    |
+    |
+    |
+    V
+    
+Computadora Local
+
+
+Git clone: no sirve para clonar un proyecto, normalmente, se usa cuando no nos
+interesa colaborar en el proyecto.
+
+Descargamos un proyecto desde github. ejemplo (jquery)
+
+$git clone https://github.com/jquery/jquery.git
+
+
+-------------------------------------------------------------------------------
+Repositorios (Proyectos): un repositorio es como la traduccion de la palabra
+proyectos, proyecto y repositorio es lo mismo.
+
+Hay dos tipos: repositorios remotos, repositorios locales.
+
+---------------------------------------------------------------------------
+
+GIT REMOTE: vincula nuestro proyecto local, con nuestro proyecto remoto.
+$ git remote
+
+GitHub Remoto
+
+    A |
+    | |
+    | |
+    | |
+    | V
+
+Computadora Local   
+
+$ git remote add origin git@github.com:charruasg/PracticaGit.git
+
+
+-Comprobamos si vinculamos el proyecto con GitHub
+
+$ git remote -v
+
+
+-Para dejar de vincular un proyecto
+
+$ git remote remove origin
+
+
+
+
+
+
+
+
+
+
+
