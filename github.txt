@@ -81,10 +81,12 @@ PARA SUBIRLOS CAMBIOS LOS PASOS SON LOS SIGUIENTES
 
 - CREAMOS UNA RAMA Y LA SUBIMOS
 
-bit branch testeo       --creamos la rama testeo
-git checkout testeo     --nos movemos a la rama testeo
-
-
+1- bit branch testeo       --creamos la rama testeo
+2- git checkout testeo     --nos movemos a la rama testeo
+3- git status
+4- git add -A
+5- git commit -m "Cambiamos el archivo notas.txt"
+6- git push origin testeo
 
 
 
