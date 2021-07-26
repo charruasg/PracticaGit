@@ -71,7 +71,13 @@ Computadora Local
 
 $ git push origin master
 
-zzzz
+- CUANDO HACEMOS CAMBIOS EN NUESTRO PROYECTO EJEMPLO EN EL ARCHIVO notas.txt
+PARA SUBIRLOS CAMBIOS LOS PASOS SON LOS SIGUIENTES
+
+1- git status
+2- git add -A
+3- git commit -m "Cambiamos el archivo notas.txt"
+4- git push origin master
 
 
 
