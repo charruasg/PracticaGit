@@ -79,6 +79,13 @@ PARA SUBIRLOS CAMBIOS LOS PASOS SON LOS SIGUIENTES
 3- git commit -m "Cambiamos el archivo notas.txt"
 4- git push origin master
 
+- CREAMOS UNA RAMA Y LA SUBIMOS
+
+bit branch testeo       --creamos la rama testeo
+git checkout testeo     --nos movemos a la rama testeo
+
+
+
 
 
 
