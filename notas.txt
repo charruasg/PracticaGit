@@ -19,11 +19,11 @@ git config --global user.name "Charrua"
 
 - configurar correo electronico
 
-git config --global user.mail "charruasg@gmail.com"
+git config --global user.email "myself@gmail.com"
 
 - ver configuracion de correo
 
-git config --global user.mail
+git config --global user.email
 
 - configuracion de colores para mostrar los resultados
 

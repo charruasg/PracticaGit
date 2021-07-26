@@ -12,8 +12,8 @@ GitHub Remoto
 Computadora Local
 
 
-Git clone: no sirve para clonar un proyecto, normalmente, se usa cuando no nos
-interesa colaborar en el proyecto.
+Git clone: clonamos el proyecto y lo descargamos en nuestro pc,
+se usa cuando no nos interesa colaborar en el proyecto.
 
 Descargamos un proyecto desde github. ejemplo (jquery)
 
@@ -53,6 +53,25 @@ $ git remote -v
 
 $ git remote remove origin
 
+
+-Git push: manda nuestros cambios (commits) a Github.
+
+$ git push
+
+GitHub Remoto
+      
+      A
+      |
+      |
+      |
+
+Computadora Local
+
+-Pasamos la rama master
+
+$ git push origin master
+
+zzzz
 
 
 
