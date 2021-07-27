@@ -93,6 +93,8 @@ PARA SUBIRLOS CAMBIOS LOS PASOS SON LOS SIGUIENTES
 
 1-git checkout master      --nos movemos a la rama master
 2-git merge testeo         --absorvemos la rama testeo
+3-git push origin master   --subimos lo cambios de master
+
 
 
 
