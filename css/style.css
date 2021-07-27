@@ -15,3 +15,8 @@ h1{
     padding: 10;
     height: 180px;
 }
+
+.col{
+    background-color: teal;
+    border: 2px solid white;
+}
